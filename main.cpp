@@ -6,6 +6,7 @@ using namespace std;
     cout << "Enter A and B: ";
     int a, b;
     cin >> a >> b;
-    cout << "Sum: " << a + b << endl; // Вывод суммы A и B
+cout << "A + B = " << a + b << '\n'
+     << "A - B = " << a - b << '\n';
     return 0;
 }
